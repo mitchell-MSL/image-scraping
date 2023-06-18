@@ -8,8 +8,10 @@ Two methods of image scraping are used to download photos of muppets from the we
 **Method Two Selenium:**
 - pip install requests
 - pip install selenium
-- You will also have to install a Chrome driver for this method. The path I used for this driver can be seen in the method two file, but your will be different. 
+- You will also have to install a Chrome driver for this method. The path I used for this driver can be seen in the method two file, but yours will be different. 
   - https://chromedriver.chromium.org/downloads
+- For one of my scrapes an ad blocker was useful. You can find one on the chrome webstore.
+  - https://chrome.google.com/webstore/category/extensions
  
 **Method One Beautiful Soup:** 
 - Pros
@@ -20,6 +22,7 @@ Two methods of image scraping are used to download photos of muppets from the we
   - You may get low resolution images like thumbnails since you can't click through.
 
 **Method Two Selenium:**
+I included two versions of Method two to show how much the code can change for different websites. This method of scraping involves interactions with the webpages, and every web page is different. It may take a bit longer to set this up to work for your usecase, but you got this!
 - Pros
   - You can automate tasks that require interactions like scrolling, or clicking with the page.
   - This will help you scrape multiple pages of images.
@@ -40,3 +43,4 @@ Two methods of image scraping are used to download photos of muppets from the we
 1. How To Web Scrape & Download Images With Python - Tech with Tim
    https://www.youtube.com/watch?v=NBuED2PivbY&t=1s
    https://github.com/techwithtim/Image-Scraper-And-Downloader/blob/main/tutorial.py
+2. 3. Chat GPT was very useful for addressing errors with StaleElementReferenceException, in method_2_different_site.py
