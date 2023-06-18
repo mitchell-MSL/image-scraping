@@ -9,7 +9,7 @@ Two methods of image scraping are used to download photos of muppets from the we
 - pip install requests
 - pip install selenium
 - You will also have to install a Chrome driver for this method. The path I used for this driver can be seen in the method two file, but your will be different. 
-  - https://sites.google.com/a/chromium.org/chromedriver/downloads
+  - https://chromedriver.chromium.org/downloads
  
 **Method One Beautiful Soup:** 
 - Pros
