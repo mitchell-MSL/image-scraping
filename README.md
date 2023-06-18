@@ -32,7 +32,7 @@ Two methods of image scraping are used to download photos of muppets from the we
 1. How to Scrape and Download ALL images from a webpage -John Wattson Rooney with Python
     https://www.youtube.com/watch?v=stIxEKR7o-c
     https://github.com/jhnwr/image-downloader/blob/main/imagedownloader.py
-3. Chat GPT was used to help address errors with downloading the images.
+3. Chat GPT was used to help address errors with downloading the images and tie it all together.
     https://chat.openai.com/
    
 
